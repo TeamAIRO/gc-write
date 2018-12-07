@@ -140,3 +140,7 @@ calendar.events.insert({
 });
 
 }
+
+restService.listen(process.env.PORT || 8000, function() {
+  console.log("Server up and listening");
+}
